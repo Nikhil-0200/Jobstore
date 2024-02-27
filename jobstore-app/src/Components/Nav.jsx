@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
-import { MENU } from "../assets/images";
+import { MENU } from "../assets/icons";
+import { LOGIN } from "../assets/icons";
+import { REGISTER } from "../assets/icons";
 
 const Nav = () => {
   return (
@@ -21,10 +23,12 @@ const Nav = () => {
         style={{ fontFamily: "Poppins" }}
         className="flex gap-5 text-ml font-medium max-lg:hidden"
       >
-        <button className="border-[1px] border-[#6D6D6D] px-6 py-2 rounded-lg">
+        <button className="border-[1px] border-[#6D6D6D] px-6 py-2 rounded-lg flex items-center gap-3">
+          <img src={LOGIN} alt="loginLogo" width={20} height={20}/>
           Sign Up
         </button>
-        <button className="border-[1px] border-[#6D6D6D] px-6 py-2 rounded-lg">
+        <button className="border-[1px] border-[#6D6D6D] px-6 py-2 rounded-lg flex items-center gap-3">
+          <img src={REGISTER} alt="registerLogo" width={20} height={20} />
           Sign In
         </button>
       </div>

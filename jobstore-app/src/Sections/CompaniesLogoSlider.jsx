@@ -1,7 +1,10 @@
 
 const CompaniesLogoSlider = () => {
   return (
-    <div>CompaniesLogoSlider</div>
+    
+    <section className="max-container">
+      <div>CompaniesLogoSlider</div>
+    </section>
   )
 }
 

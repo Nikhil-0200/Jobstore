@@ -4,7 +4,7 @@ import { Hero, CompaniesLogoSlider, FeaturedJobs, FeaturedCompanies, CustomerRev
 const Home = () => {
   return (
     <section>
-        <section className="padding-b xl:padding-l wide:padding-r bg-[#12141D]">
+        <section className="padding-b wide:padding-r bg-[#12141D]">
           <Hero />
         </section>
         <section className="padding border-2 border-solid border-black">

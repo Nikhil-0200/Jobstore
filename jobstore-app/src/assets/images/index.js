@@ -1,9 +1,10 @@
 import Jobstorelogo from "./JobstoreLogo.png";
-import MENU from "./MENU.png"
-import SEARCH from "./SEARCH.png"
+import GROUPIMAGE from "./GROUPIMAGE.png";
+import GROUPIMAGE2 from "./GROUPIMAGE2.png";
+
 
 export{
     Jobstorelogo,
-    MENU,
-    SEARCH
+    GROUPIMAGE,
+    GROUPIMAGE2
 }
